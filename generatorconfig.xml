@@ -22,21 +22,21 @@
     </javaTypeResolver>
 
     <!-- model-->
-    <javaModelGenerator targetPackage="com.wasu.auto.model" targetProject=".\src\main\java">
+    <javaModelGenerator targetPackage="com.wasu.auto.model" targetProject="src/main/java">
         <property name="enableSubPackages" value="true"/>
         <property name="trimStrings" value="true"/>
     </javaModelGenerator>
 
     <!-- xml-->
-    <sqlMapGenerator targetPackage="com.wasu.auto.dao" targetProject=".\src\main\resources">
+    <sqlMapGenerator targetPackage="com.wasu.auto.dao" targetProject="src/main/resources">
         <property name="enableSubPackages" value="true"/>
     </sqlMapGenerator>
 
     <!-- mapper-->
-    <javaClientGenerator type="XMLMAPPER" targetPackage="com.wasu.auto.dao" targetProject=".\src\main\java">
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.wasu.auto.dao" targetProject="src/main/java">
         <property name="enableSubPackages" value="true"/>
     </javaClientGenerator>
 
-    <table tableName="chanel_team" domainObjectName="team"></table>
+    <table tableName="chanel_actor" domainObjectName="actor"></table>
     </context>
 </generatorConfiguration>
