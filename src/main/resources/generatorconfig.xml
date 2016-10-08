@@ -35,6 +35,8 @@
         <property name="enableSubPackages" value="true"/>
     </javaClientGenerator>
 
-    <table tableName="chanel_actor" domainObjectName="actor"></table>
+    <table tableName="chanel_actor" domainObjectName="Actor"></table>
+    <table tableName="chanel_item" domainObjectName="Item"></table>
+    <table tableName="chanel_team" domainObjectName="Team"></table>
     </context>
 </generatorConfiguration>
