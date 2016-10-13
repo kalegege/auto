@@ -11,6 +11,8 @@ public class Item {
 
     private String chName;
 
+    private String byname;
+
     private String regionId;
 
     private String assetid;
@@ -83,6 +85,14 @@ public class Item {
 
     public void setChName(String chName) {
         this.chName = chName == null ? null : chName.trim();
+    }
+
+    public String getByname() {
+        return byname;
+    }
+
+    public void setByname(String byname) {
+        this.byname = byname == null ? null : byname.trim();
     }
 
     public String getRegionId() {

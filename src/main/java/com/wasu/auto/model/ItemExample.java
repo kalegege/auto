@@ -365,6 +365,76 @@ public class ItemExample {
             return (Criteria) this;
         }
 
+        public Criteria andBynameIsNull() {
+            addCriterion("byname is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameIsNotNull() {
+            addCriterion("byname is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameEqualTo(String value) {
+            addCriterion("byname =", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameNotEqualTo(String value) {
+            addCriterion("byname <>", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameGreaterThan(String value) {
+            addCriterion("byname >", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameGreaterThanOrEqualTo(String value) {
+            addCriterion("byname >=", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameLessThan(String value) {
+            addCriterion("byname <", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameLessThanOrEqualTo(String value) {
+            addCriterion("byname <=", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameLike(String value) {
+            addCriterion("byname like", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameNotLike(String value) {
+            addCriterion("byname not like", value, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameIn(List<String> values) {
+            addCriterion("byname in", values, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameNotIn(List<String> values) {
+            addCriterion("byname not in", values, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameBetween(String value1, String value2) {
+            addCriterion("byname between", value1, value2, "byname");
+            return (Criteria) this;
+        }
+
+        public Criteria andBynameNotBetween(String value1, String value2) {
+            addCriterion("byname not between", value1, value2, "byname");
+            return (Criteria) this;
+        }
+
         public Criteria andRegionIdIsNull() {
             addCriterion("region_id is null");
             return (Criteria) this;
