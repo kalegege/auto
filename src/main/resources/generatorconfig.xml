@@ -38,7 +38,6 @@
     <table tableName="chanel_actor" domainObjectName="Actor"></table>
     <table tableName="chanel_item" domainObjectName="Item"></table>
     <table tableName="chanel_team" domainObjectName="Team"></table>
-
     <table tableName="chanel_item_team" domainObjectName="ItemTeam"></table>
     </context>
 </generatorConfiguration>
