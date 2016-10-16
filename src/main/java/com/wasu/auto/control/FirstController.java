@@ -1,4 +1,4 @@
-package com.wasu.control;
+package com.wasu.auto.control;
 
 /**
  * Created by kale on 2016/10/8.
