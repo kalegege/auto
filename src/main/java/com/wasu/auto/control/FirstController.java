@@ -1,11 +1,12 @@
 package com.wasu.auto.control;
 
+import org.apache.log4j.Logger;
+
 /**
  * Created by kale on 2016/10/8.
  */
 public class FirstController {
-    public void main(String[] args){
-        System.out.println("helloworld!");
-        System.out.println("kkk");
-    }
+
+    private static Logger logger= Logger.getLogger(FirstController.class.getName());
+
 }
