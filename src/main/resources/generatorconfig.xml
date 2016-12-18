@@ -10,7 +10,7 @@
 
 		<!-- 数据库配置  -->  
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver" 
-			connectionURL="jdbc:mysql://125.210.141.30/galaxy?useUnicode=true&amp;characterEncoding=GBK" 
+			connectionURL="jdbc:mysql://125.210.141.30/mars?useUnicode=true&amp;characterEncoding=GBK" 
 			userId="admin" 
 			password="Hello1234">   
 		</jdbcConnection>   
@@ -35,9 +35,6 @@
         <property name="enableSubPackages" value="true"/>
     </javaClientGenerator>
 
-    <table tableName="chanel_actor" domainObjectName="Actor"></table>
-    <table tableName="chanel_item" domainObjectName="Item"></table>
-    <table tableName="chanel_team" domainObjectName="Team"></table>
-    <table tableName="chanel_item_team" domainObjectName="ItemTeam"></table>
+    <table tableName="area" domainObjectName="Area"></table>
     </context>
 </generatorConfiguration>
